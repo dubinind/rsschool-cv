@@ -1,1 +1,1 @@
-# rsschool-cv
+https://dubinind.github.io/rsschool-cv/
