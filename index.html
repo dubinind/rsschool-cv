@@ -1,1 +1,99 @@
-index
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">  
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.ico">
+  <title>cv</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item item"><a href="#code" class="nav-link">Code Example</a></li>
+          <li class="nav-item item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div> 
+  </header>
+  <main class="main-container">
+    <div class="container">
+			<section class="section">
+				<h1 class="name section-title">About me</h1>
+				<img src="./assets/img/avatar.jpg" alt="avatar">
+				<p>Dubinin Dmitriy. Junior Frontend Developer
+				</p>
+			</section>
+      <section class="section">
+				<h2 class="section-title">Contacts</h2>
+        <a href="#" id="contacts"></a>
+        <a href="tel:+79263952723">Phone: +7(926)395-27-23</a>
+        <a href="mailto:dubinind84@gmail.com">dubinind84@gmail.com</a>
+        <a href="http://t.me/@Dubinind">Telegram: @Dubinind</a>"
+      </section>
+      <section class="section">
+				<h2 class="section-title">Summary</h2>
+        <a href="#" id="summary"></a>
+        <span class="summary-text">I am 37 years old. I like to learn everything new and put it into practice. I really like to solve problems. I think I'm a good team player.
+        </span>
+      </section>
+      <section class="section">
+				<h2 class="section-title">Skills</h2>
+        <a href="#" id="skills"></a>
+        <ul class="skills-items list">
+          <li class="skills-item item">HTML</li>
+        	<li class="skills-item item">CSS/SASS</li>
+        	<li class="skills-item item">JavaScript (Basic)</li>
+       	  <li class="skills-item item">Git/GitHub</li>
+        	<li class="skills-item item">Figma/Photoshop</li>
+        </ul>
+      </section>
+      <section class="section">
+				<h2 class="section-title">Code Example</h2>
+        <a href="#" id="code"></a>
+        <pre>
+          <code>
+(function () {
+	var getRandomNumber = function (min, max) {
+	  return Math.floor(Math.random() * (max - min) + min);
+};							
+	var getRandomArrElement = function (array) {
+	  return array[getRandomNumber(0, array.length)];
+};
+          </code>
+        </pre>
+      </section>
+      <section class="section">
+				<h2 class="section-title">Education</h2>
+				<a href="#" id="education"></a>
+        <ul class="education-list list">
+          <li class="education-item item">K.g. Razumovsky Moscow State University of Technologies and Management. Process engineer
+          </li>
+          <li class="education-item item">HTMLAcademy</li>
+          <li class="education-item item">RS School(in process</li>
+        </ul>
+      </section>
+      <section class="section">
+				<h2 class="section-title">English</h2>
+        <a href="#" id="english"></a>
+        <ul class="language-list list">
+          <li class="language-item item">Russian - native speaker</li>
+          <li class="language-item item">English - A2</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container"></div>
+  </footer>
+</body>
+</html>
